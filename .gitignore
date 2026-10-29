@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+publish/
+
+# WebView2 local user data
+WebView2/
+
+# Windows
+Thumbs.db
+Desktop.ini
