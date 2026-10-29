@@ -119,7 +119,7 @@ var TEMPLATE=[
 ];
 function uid(){return 'id-'+new Date().getTime()+'-'+Math.floor(Math.random()*100000)}
 function workflow(){var a=[];for(var i=0;i<TEMPLATE.length;i++){var st={id:uid(),name:TEMPLATE[i].name,steps:[]};for(var j=0;j<TEMPLATE[i].steps.length;j++)st.steps.push({id:uid(),name:TEMPLATE[i].steps[j],response:null,completedAt:null});a.push(st)}return a}
-var starter=[{id:'starter-1',solicitation:'36C26226B0001',name:'Building 4 Restroom Renovation',agency:'Department of Veterans Affairs',location:'Tucson, AZ',rfiDue:'2026-09-18',bidDue:'2026-09-29T14:00',status:'Active',submittedAt:null,archivedAt:null,notes:'Confirm abatement limits and phasing requirements.',workflow:workflow()}];
+var starter=[];
 var projects=[];
 var tasks=[];
 
